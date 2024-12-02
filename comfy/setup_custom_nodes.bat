@@ -53,6 +53,7 @@ IF [%1]==[] (
 
 md input
 md output
+md %COMFY_DIR%\ComfyUI\models\LLM
 pip install pyyaml
 python make_extra_model_paths.py
 move extra_model_paths.yaml %COMFY_DIR%\ComfyUI\
