@@ -98,7 +98,7 @@ call:cloneCustomNode "jamesWalker55" "comfyui-various" "36454f9"
 call:cloneCustomNode "bash-j" "mikey_nodes" "637bc18"
 call:cloneCustomNode "SuperBeastsAI" "ComfyUI-SuperBeasts" "f684c86"
 call:cloneCustomNode "storyicon" "comfyui_segment_anything" "ab63955"
-call:cloneCustomNode "aria1th" "ComfyUI-LogicUtils" "2e65bc8"
+call:cloneCustomNode "aria1th" "ComfyUI-LogicUtils" "25b2aab"
 call:cloneCustomNode "XLabs-AI" "x-flux-comfyui" "0032855"
 
 pushd ComfyUI-Impact-Pack
