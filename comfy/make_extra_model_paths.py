@@ -1,9 +1,12 @@
 import yaml
 import os
+import argparse
+
+base_path = os.getcwd()
 
 extra_paths = {
     "comfyui": {
-        "base_path": os.getcwd(),
+        "base_path": base_path,
         "shared_models": "models/",
         "checkpoints": "models/checkpoints/",
         "configs": "models/configs/",
@@ -40,3 +43,7 @@ extra_paths = {
 
 with open("extra_model_paths.yaml", "wt", encoding="UTF8") as f:
     yaml.dump(extra_paths, f, default_flow_style=False, indent=4)
+
+run_script = f".\\python_embeded\\python.exe -s ComfyUI\\main.py --windows-standalone-build --input-directory {base_path}\\input --output-directory {base_path}\\output\npause"
+with open("run_nvidia_gpu_my.bat", "wt", encoding="UTF8") as f:
+    f.writelines([run_script])

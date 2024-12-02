@@ -51,10 +51,15 @@ IF [%1]==[] (
     set COMFY_DIR=%1
 )
 
+md input
+md output
 pip install pyyaml
 python make_extra_model_paths.py
 move extra_model_paths.yaml %COMFY_DIR%\ComfyUI\
+move run_nvidia_gpu_my.bat %COMFY_DIR%\ComfyUI\
 
+%COMFY_DIR%\python_embeded\python.exe -m pip install "numpy<2"
+%COMFY_DIR%\python_embeded\python.exe -m pip install insightface-0.7.3-cp312-cp312-win_amd64.whl onnx==1.16.1 onnxruntime-gpu==1.19.2
 %COMFY_DIR%\python_embeded\python.exe -m pip install -r requirements.txt
 
 pushd %COMFY_DIR%\ComfyUI\custom_nodes
