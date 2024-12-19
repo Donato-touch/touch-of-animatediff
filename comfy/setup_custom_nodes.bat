@@ -102,6 +102,11 @@ call:cloneCustomNode "storyicon" "comfyui_segment_anything" "ab63955"
 call:cloneCustomNode "aria1th" "ComfyUI-LogicUtils" "eb3a0d0"
 call:cloneCustomNode "XLabs-AI" "x-flux-comfyui" "0032855"
 call:cloneCustomNode "Lightricks" "ComfyUI-LTXVideo" "366c43d"
+
+pushd ComfyUI-LTXVideo
+%COMFY_DIR%\python_embeded\python.exe -m pip install -r requirements.txt
+popd
+
 popd
 
 pause
