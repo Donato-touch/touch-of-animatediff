@@ -64,47 +64,44 @@ move run_nvidia_gpu_my.bat %COMFY_DIR%\
 %COMFY_DIR%\python_embeded\python.exe -m pip install -r requirements.txt
 
 pushd %COMFY_DIR%\ComfyUI\custom_nodes
-git clone --recursive -b 2.54 https://github.com/comfyanonymous/ComfyUI.git
+git clone --recursive -b 2.55.5 https://github.com/ltdrdata/ComfyUI-Manager.git
 call:cloneCustomNode "Suzie1" "ComfyUI_Comfyroll_CustomNodes" "d78b780"
 call:cloneCustomNode "Fannovel16" "comfyui_controlnet_aux" "5a049bd"
 call:cloneCustomNode "Fannovel16" "ComfyUI-Frame-Interpolation" "c336f71"
-call:cloneCustomNode "Kosinkadink" "ComfyUI-Advanced-ControlNet" "172543b"
-call:cloneCustomNode "Kosinkadink" "ComfyUI-AnimateDiff-Evolved" "b3e508a"
-call:cloneCustomNode "Kosinkadink" "ComfyUI-VideoHelperSuite" "05f085e"
+call:cloneCustomNode "Kosinkadink" "ComfyUI-Advanced-ControlNet" "9632af9"
+call:cloneCustomNode "Kosinkadink" "ComfyUI-AnimateDiff-Evolved" "4f1344e"
+call:cloneCustomNode "Kosinkadink" "ComfyUI-VideoHelperSuite" "6953fa2"
 call:cloneCustomNode "cubiq" "ComfyUI_IPAdapter_plus" "b188a6c"
-call:cloneCustomNode "cubiq" "ComfyUI_essentials" "5a4e5cd"
-call:cloneCustomNodeByTag "ltdrdata" "ComfyUI-Impact-Pack" "7.14"
+call:cloneCustomNode "cubiq" "ComfyUI_essentials" "33ff89f"
+call:cloneCustomNodeByTag "ltdrdata" "ComfyUI-Impact-Pack" "8.0.1"
+call:cloneCustomNodeByTag "ltdrdata" "ComfyUI-Impact-Subpack" "1.1"
 call:cloneCustomNodeByTag "ltdrdata" "ComfyUI-Inspire-Pack" "1.9"
-call:cloneCustomNode "pythongosssss" "ComfyUI-Custom-Scripts" "d6657cc"
+call:cloneCustomNode "pythongosssss" "ComfyUI-Custom-Scripts" "19a82e2"
 call:cloneCustomNode "jags111" "efficiency-nodes-comfyui" "3ead4af"
 call:cloneCustomNode "BadCafeCode" "masquerade-nodes-comfyui" "432cb4d"
-call:cloneCustomNode "melMass" "comfy_mtb" "ecbb220"
+call:cloneCustomNode "melMass" "comfy_mtb" "827c64c"
 call:cloneCustomNode "FizzleDorf" "ComfyUI_FizzNodes" "7d6ea60"
-call:cloneCustomNode "alt-key-project" "comfyui-dream-project" "b9e6959"
-call:cloneCustomNode "kijai" "ComfyUI-KJNodes" "2838126"
+call:cloneCustomNode "alt-key-project" "comfyui-dream-project" "b5c804a"
+call:cloneCustomNode "kijai" "ComfyUI-KJNodes" "973ceb6"
 call:cloneCustomNode "kijai" "ComfyUI-Florence2" "27714ba"
 call:cloneCustomNode "kijai" "ComfyUI-Marigold" "1894ff2"
 call:cloneCustomNode "WASasquatch" "was-node-suite-comfyui" "fe7e088"
 call:cloneCustomNode "sipherxyz" "comfyui-art-venture" "50abaac"
-call:cloneCustomNode "rgthree" "rgthree-comfy" "70756c0"
+call:cloneCustomNode "rgthree" "rgthree-comfy" "5f2d8a1"
 call:cloneCustomNode "chrisgoringe" "cg-image-picker" "aaab0d3"
 call:cloneCustomNode "crystian" "ComfyUI-Crystools" "03a61d6"
 call:cloneCustomNode "TheBill2001" "comfyui-upscale-by-model" "f8bb900"
 call:cloneCustomNode "un-seen" "comfyui-tensorops" "d34488e"
-call:cloneCustomNode "TinyTerra" "ComfyUI_tinyterraNodes" "0387940"
+call:cloneCustomNode "TinyTerra" "ComfyUI_tinyterraNodes" "339ee9c"
 call:cloneCustomNode "ssitu" "ComfyUI_UltimateSDUpscale" "e617ff2"
 call:cloneCustomNode "evanspearman" "ComfyMath" "939bb81"
 call:cloneCustomNode "jamesWalker55" "comfyui-various" "36454f9"
 call:cloneCustomNode "bash-j" "mikey_nodes" "637bc18"
 call:cloneCustomNode "SuperBeastsAI" "ComfyUI-SuperBeasts" "f684c86"
 call:cloneCustomNode "storyicon" "comfyui_segment_anything" "ab63955"
-call:cloneCustomNode "aria1th" "ComfyUI-LogicUtils" "25b2aab"
+call:cloneCustomNode "aria1th" "ComfyUI-LogicUtils" "eb3a0d0"
 call:cloneCustomNode "XLabs-AI" "x-flux-comfyui" "0032855"
-
-pushd ComfyUI-Impact-Pack
-..\..\..\python_embeded\python.exe install.py
-popd
-
+call:cloneCustomNode "Lightricks" "ComfyUI-LTXVideo" "366c43d"
 popd
 
 pause
