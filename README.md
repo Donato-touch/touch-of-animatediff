@@ -1,5 +1,7 @@
 # v1.0.0
 
+Release : https://github.com/Donato-touch/touch-of-animatediff/releases/tag/1.0.0
+
 사용법 : https://youtu.be/WMqAnL3y__c
 
 이 버전과 연동해 본 ComfyUI 버전
