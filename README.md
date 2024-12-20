@@ -1,6 +1,6 @@
-# v1.1.0
+# v1.1.1
 
-Release : https://github.com/Donato-touch/touch-of-animatediff/releases/tag/1.1.0
+Release : https://github.com/Donato-touch/touch-of-animatediff/releases/tag/1.1.1
 
 사용법 : https://youtu.be/WMqAnL3y__c
 
@@ -11,7 +11,7 @@ Python 버전
 - 3.12.8
 
 설치되는 Python 패키지들 버전
-- https://github.com/Donato-touch/touch-of-animatediff/blob/1.1.0/comfy/requirements.txt
+- https://github.com/Donato-touch/touch-of-animatediff/blob/1.1.1/comfy/requirements.txt
 
 이 버전으로 설치되는 Custom Nodes (고정 버전 링크) : 년-월-일
 - 이전과 동일
@@ -69,7 +69,7 @@ Python 버전
   - https://github.com/ultralytics/ultralytics/issues/18027
 
 출처
-- https://github.com/Donato-touch/touch-of-animatediff/blob/1.1.0/example/resource/test_dance.mp4
+- https://github.com/Donato-touch/touch-of-animatediff/blob/1.1.1/example/resource/test_dance.mp4
   - https://www.tiktok.com/@mielingfashion/video/7386620317755510022
  
 
