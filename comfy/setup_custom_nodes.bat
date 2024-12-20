@@ -59,9 +59,10 @@ python make_extra_model_paths.py
 move extra_model_paths.yaml %COMFY_DIR%\ComfyUI\
 move run_nvidia_gpu_my.bat %COMFY_DIR%\
 
-%COMFY_DIR%\python_embeded\python.exe -m pip install "numpy<2"
-%COMFY_DIR%\python_embeded\python.exe -m pip install insightface-0.7.3-cp312-cp312-win_amd64.whl onnx==1.16.1 onnxruntime-gpu==1.19.2
-%COMFY_DIR%\python_embeded\python.exe -m pip install -r requirements.txt
+%COMFY_DIR%\python_embeded\python.exe -m pip install --user "numpy<2"
+%COMFY_DIR%\python_embeded\python.exe -m pip install --user insightface-0.7.3-cp312-cp312-win_amd64.whl onnx==1.16.1 onnxruntime-gpu==1.19.2
+%COMFY_DIR%\python_embeded\python.exe -m pip install --user -r requirements.txt
+%COMFY_DIR%\python_embeded\python.exe -m pip install --user dghs-imgutils[gpu]
 
 pushd %COMFY_DIR%\ComfyUI\custom_nodes
 git clone --recursive -b 2.55.5 https://github.com/ltdrdata/ComfyUI-Manager.git
