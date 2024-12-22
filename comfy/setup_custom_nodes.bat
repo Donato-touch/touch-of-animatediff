@@ -59,10 +59,14 @@ python make_extra_model_paths.py
 move extra_model_paths.yaml %COMFY_DIR%\ComfyUI\
 move run_nvidia_gpu_my.bat %COMFY_DIR%\
 
-%COMFY_DIR%\python_embeded\python.exe -m pip install --user "numpy<2"
-%COMFY_DIR%\python_embeded\python.exe -m pip install --user insightface-0.7.3-cp312-cp312-win_amd64.whl onnx==1.16.1 onnxruntime-gpu==1.19.2
-%COMFY_DIR%\python_embeded\python.exe -m pip install --user -r requirements.txt
-%COMFY_DIR%\python_embeded\python.exe -m pip install --user dghs-imgutils[gpu]
+@REM %COMFY_DIR%\python_embeded\python.exe -m pip install "numpy<2"
+@REM %COMFY_DIR%\python_embeded\python.exe -m pip install -r requirements.txt
+@REM %COMFY_DIR%\python_embeded\python.exe -m pip install insightface-0.7.3-cp312-cp312-win_amd64.whl onnx==1.16.1 onnxruntime-gpu==1.19.2
+@REM %COMFY_DIR%\python_embeded\python.exe -m pip install dghs-imgutils[gpu]
+
+%COMFY_DIR%\python_embeded\python.exe -m pip install --force-reinstall wheel
+%COMFY_DIR%\python_embeded\python.exe -m pip install -r requirements.txt
+%COMFY_DIR%\python_embeded\python.exe -m pip install --no-deps --force-reinstall "dghs-imgutils[gpu]" "pydantic>=2.7.0" "anyio" "httpcore==1.*" "matplotlib" "scikit-image" "timm==1.0.9" "pooch" "pymatting" "urllib3==1.26.20" "sympy==1.13.1" "Cython==3.0.11" "numpy<2"
 
 pushd %COMFY_DIR%\ComfyUI\custom_nodes
 git clone --recursive -b 2.55.5 https://github.com/ltdrdata/ComfyUI-Manager.git
@@ -92,7 +96,6 @@ call:cloneCustomNode "rgthree" "rgthree-comfy" "5f2d8a1"
 call:cloneCustomNode "chrisgoringe" "cg-image-picker" "aaab0d3"
 call:cloneCustomNode "crystian" "ComfyUI-Crystools" "03a61d6"
 call:cloneCustomNode "TheBill2001" "comfyui-upscale-by-model" "f8bb900"
-call:cloneCustomNode "un-seen" "comfyui-tensorops" "d34488e"
 call:cloneCustomNode "TinyTerra" "ComfyUI_tinyterraNodes" "339ee9c"
 call:cloneCustomNode "ssitu" "ComfyUI_UltimateSDUpscale" "e617ff2"
 call:cloneCustomNode "evanspearman" "ComfyMath" "939bb81"
@@ -102,7 +105,7 @@ call:cloneCustomNode "SuperBeastsAI" "ComfyUI-SuperBeasts" "f684c86"
 call:cloneCustomNode "storyicon" "comfyui_segment_anything" "ab63955"
 call:cloneCustomNode "aria1th" "ComfyUI-LogicUtils" "eb3a0d0"
 call:cloneCustomNode "XLabs-AI" "x-flux-comfyui" "0032855"
-call:cloneCustomNode "Lightricks" "ComfyUI-LTXVideo" "366c43d"
+call:cloneCustomNode "Lightricks" "ComfyUI-LTXVideo" "8cbf26c"
 
 pushd ComfyUI-LTXVideo
 %COMFY_DIR%\python_embeded\python.exe -m pip install -r requirements.txt
