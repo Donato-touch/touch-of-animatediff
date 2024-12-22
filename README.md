@@ -1,17 +1,17 @@
-# v1.1.1
+# v1.1.2
 
-Release : https://github.com/Donato-touch/touch-of-animatediff/releases/tag/1.1.1
+Release : https://github.com/Donato-touch/touch-of-animatediff/releases/tag/1.1.2
 
 사용법 : https://youtu.be/WMqAnL3y__c
 
 이 버전과 연동해 본 ComfyUI 버전
-- v0.3.8 : https://github.com/comfyanonymous/ComfyUI/releases/tag/v0.3.8
+- v0.3.9 : https://github.com/comfyanonymous/ComfyUI/releases/tag/v0.3.9
 
 Python 버전
 - 3.12.8
 
 설치되는 Python 패키지들 버전
-- https://github.com/Donato-touch/touch-of-animatediff/blob/1.1.1/comfy/requirements.txt
+- https://github.com/Donato-touch/touch-of-animatediff/blob/1.1.2/comfy/requirements.txt
 
 이 버전으로 설치되는 Custom Nodes (고정 버전 링크) : 년-월-일
 - 이전과 동일
@@ -30,7 +30,6 @@ Python 버전
   - [cg-image-picker](https://github.com/chrisgoringe/cg-image-picker/commit/aaab0d31165ee9cd252f62067de5f5e89240563e) : 2024-11-29
   - [ComfyUI-Crystools](https://github.com/crystian/ComfyUI-Crystools/commit/03a61d690379f22c6bffc42ea4845f797deb316c) : 2024-11-10
   - [comfyui-upscale-by-model](https://github.com/TheBill2001/comfyui-upscale-by-model/commit/f8bb90094cb96c76e666d9eb609a09af9dcdfe95) : 2024-06-19
-  - [comfyui-tensorops](https://github.com/un-seen/comfyui-tensorops/commit/d34488e3079ecd10db2fe867c3a7af568115faed) : 2024-10-26
   - [ComfyUI_UltimateSDUpscale](https://github.com/ssitu/ComfyUI_UltimateSDUpscale/commit/e617ff20e7ef5baf6526c5ff4eb46a35d24ecbba) : 2024-10-08
   - [ComfyMath](https://github.com/evanspearman/ComfyMath/commit/939bb813f1c0ace959b62f20bb2da47190c4e211) : 2024-09-03
   - [comfyui-various](https://github.com/jamesWalker55/comfyui-various/commit/36454f91606bbff4fc36d90234981ca4a47e2695) : 2024-09-19
@@ -56,9 +55,10 @@ Python 버전
 - 추가됨
   - [ComfyUI-Manager](https://github.com/ltdrdata/ComfyUI-Manager/releases/tag/2.55.5) : 2024-12-13
   - [ComfyUI-Impact-Subpack](https://github.com/ltdrdata/ComfyUI-Impact-Subpack/releases/tag/1.1) : 2024-12-16
+  - [ComfyUI-LTXVideo](https://github.com/Lightricks/ComfyUI-LTXVideo/commit/8cbf26cc9b9022328cc22bd6dcaffb9457aac07c) : 2024-12-20
 
 - 제거됨
-  - 없음
+  - [comfyui-tensorops](https://github.com/un-seen/comfyui-tensorops/commit/d34488e3079ecd10db2fe867c3a7af568115faed) : 2024-10-26
 
 추가된 Example
 - 플립북
@@ -68,8 +68,9 @@ Python 버전
   - https://github.com/ltdrdata/ComfyUI-Impact-Pack/issues/843
   - https://github.com/ultralytics/ultralytics/issues/18027
 
+
 출처
-- https://github.com/Donato-touch/touch-of-animatediff/blob/1.1.1/example/resource/test_dance.mp4
+- https://github.com/Donato-touch/touch-of-animatediff/blob/1.1.2/example/resource/test_dance.mp4
   - https://www.tiktok.com/@mielingfashion/video/7386620317755510022
  
 
