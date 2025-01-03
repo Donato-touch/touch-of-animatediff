@@ -1,6 +1,12 @@
-# v1.1.2
+# v1.1.3
 
-Release : https://github.com/Donato-touch/touch-of-animatediff/releases/tag/1.1.2
+## 추가된 Example
+
+- 플립북2
+
+## 패키지 구성은 [v1.1.2](https://github.com/Donato-touch/touch-of-animatediff/releases/tag/1.1.2)와 동일함
+
+Release : https://github.com/Donato-touch/touch-of-animatediff/releases/tag/1.1.3
 
 사용법 : https://youtu.be/WMqAnL3y__c
 
@@ -11,7 +17,7 @@ Python 버전
 - 3.12.8
 
 설치되는 Python 패키지들 버전
-- https://github.com/Donato-touch/touch-of-animatediff/blob/1.1.2/comfy/requirements.txt
+- https://github.com/Donato-touch/touch-of-animatediff/blob/1.1.3/comfy/requirements.txt
 
 이 버전으로 설치되는 Custom Nodes (고정 버전 링크) : 년-월-일
 - 이전과 동일
@@ -37,8 +43,9 @@ Python 버전
   - [ComfyUI-SuperBeasts](https://github.com/SuperBeastsAI/ComfyUI-SuperBeasts/commit/f684c86d0031b82123dc1f7931a8de43c9946fee) : 2024-07-31
   - [comfyui_segment_anything](https://github.com/storyicon/comfyui_segment_anything/commit/ab6395596399d5048639cdab7e44ec9fae857a93) : 2024-03-21
   - [x-flux-comfyui](https://github.com/XLabs-AI/x-flux-comfyui/commit/00328556efc9472410d903639dc9e68a8471f7ac) : 2024-10-30
-
-- 업데이트됨
+  - [ComfyUI-Manager](https://github.com/ltdrdata/ComfyUI-Manager/releases/tag/2.55.5) : 2024-12-13
+  - [ComfyUI-Impact-Subpack](https://github.com/ltdrdata/ComfyUI-Impact-Subpack/releases/tag/1.1) : 2024-12-16
+  - [ComfyUI-LTXVideo](https://github.com/Lightricks/ComfyUI-LTXVideo/commit/8cbf26cc9b9022328cc22bd6dcaffb9457aac07c) : 2024-12-20
   - [ComfyUI-Advanced-ControlNet](https://github.com/Kosinkadink/ComfyUI-Advanced-ControlNet/commit/9632af9dc8f9abe28431c0027411d7a6d4f6cd3e) : 2024-12-07
   - [ComfyUI-AnimateDiff-Evolved](https://github.com/Kosinkadink/ComfyUI-AnimateDiff-Evolved/commit/4f1344e25387d21cdded8f48f4bc59bd86bea9e8) : 2024-12-06
   - [ComfyUI-VideoHelperSuite](https://github.com/Kosinkadink/ComfyUI-VideoHelperSuite/commit/6953fa21443cf55f7c3b61ed3f4c87c5d3677fe1) : 2024-12-13
@@ -52,25 +59,22 @@ Python 버전
   - [ComfyUI_tinyterraNodes](https://github.com/TinyTerra/ComfyUI_tinyterraNodes/commit/339ee9c183d6fed5e90fa46c1e7fddc4d6efdbd2) : 2024-12-19
   - [ComfyUI-LogicUtils](https://github.com/aria1th/ComfyUI-LogicUtils/commit/eb3a0d0fa4efb14da6f459b195548533a2c09bb4) : 2024-12-16
 
+- 업데이트됨
+  - 없음
+
 - 추가됨
-  - [ComfyUI-Manager](https://github.com/ltdrdata/ComfyUI-Manager/releases/tag/2.55.5) : 2024-12-13
-  - [ComfyUI-Impact-Subpack](https://github.com/ltdrdata/ComfyUI-Impact-Subpack/releases/tag/1.1) : 2024-12-16
-  - [ComfyUI-LTXVideo](https://github.com/Lightricks/ComfyUI-LTXVideo/commit/8cbf26cc9b9022328cc22bd6dcaffb9457aac07c) : 2024-12-20
+  - 없음
 
 - 제거됨
-  - [comfyui-tensorops](https://github.com/un-seen/comfyui-tensorops/commit/d34488e3079ecd10db2fe867c3a7af568115faed) : 2024-10-26
+  - 없음
 
-추가된 Example
-- 플립북
+## 리소스 출처 정보
 
-기타
-- Impact pack에서 보고된 채굴 이슈는 ultralytics 8.3.41의 이슈로 본 설치에 포함되지 않습니다
-  - https://github.com/ltdrdata/ComfyUI-Impact-Pack/issues/843
-  - https://github.com/ultralytics/ultralytics/issues/18027
-
-
-출처
-- https://github.com/Donato-touch/touch-of-animatediff/blob/1.1.2/example/resource/test_dance.mp4
+- https://github.com/Donato-touch/touch-of-animatediff/blob/1.1.3/example/resource/test_dance.mp4
   - https://www.tiktok.com/@mielingfashion/video/7386620317755510022
- 
+
+
+
+
+
 
