@@ -1,23 +1,23 @@
-# v1.1.3
+# v1.1.4
 
 ## 추가된 Example
 
-- 플립북2
+- animtediff_1
 
-## 패키지 구성은 [v1.1.2](https://github.com/Donato-touch/touch-of-animatediff/releases/tag/1.1.2)와 동일함
+## 패키지 구성
 
-Release : https://github.com/Donato-touch/touch-of-animatediff/releases/tag/1.1.3
+Release : https://github.com/Donato-touch/touch-of-animatediff/releases/tag/1.1.4
 
 사용법 : https://youtu.be/WMqAnL3y__c
 
 이 버전과 연동해 본 ComfyUI 버전
-- v0.3.9 : https://github.com/comfyanonymous/ComfyUI/releases/tag/v0.3.9
+- v0.3.12 : https://github.com/comfyanonymous/ComfyUI/releases/tag/v0.3.12
 
 Python 버전
 - 3.12.8
 
 설치되는 Python 패키지들 버전
-- https://github.com/Donato-touch/touch-of-animatediff/blob/1.1.3/comfy/requirements.txt
+- https://github.com/Donato-touch/touch-of-animatediff/blob/1.1.4/comfy/requirements.txt
 
 이 버전으로 설치되는 Custom Nodes (고정 버전 링크) : 년-월-일
 - 이전과 동일
@@ -60,7 +60,7 @@ Python 버전
   - [ComfyUI-LogicUtils](https://github.com/aria1th/ComfyUI-LogicUtils/commit/eb3a0d0fa4efb14da6f459b195548533a2c09bb4) : 2024-12-16
 
 - 업데이트됨
-  - 없음
+  - [ComfyUI-VideoHelperSuite](https://github.com/Kosinkadink/ComfyUI-VideoHelperSuite/commit/78753dbbdb6c213e78ad0b5db4e73745a30b0bdc) : 2025-01-04
 
 - 추가됨
   - 없음
@@ -70,7 +70,7 @@ Python 버전
 
 ## 리소스 출처 정보
 
-- https://github.com/Donato-touch/touch-of-animatediff/blob/1.1.3/example/resource/test_dance.mp4
+- https://github.com/Donato-touch/touch-of-animatediff/blob/1.1.4/example/resource/test_dance.mp4
   - https://www.tiktok.com/@mielingfashion/video/7386620317755510022
 
 
