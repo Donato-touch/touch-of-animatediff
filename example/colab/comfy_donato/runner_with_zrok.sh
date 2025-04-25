@@ -20,6 +20,7 @@ cleanup() {
     echo "Stopping server..."
     kill $SERVER_PID 2>/dev/null
     wait $SERVER_PID 2>/dev/null
+    zrok disable
     echo "Cleanup done."
 }
 trap cleanup SIGINT SIGTERM
