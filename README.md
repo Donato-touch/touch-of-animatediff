@@ -1,3 +1,13 @@
+# v1.2.2
+
+## 추가된 example
+
+- colab/comfy_donato
+  - flux + hunyuan + wan2.1 + wan fun + etc...
+  - comfyui 자유 구동용 코드
+ 
+---
+
 # v1.2.1
 
 ## 추가된 Example
